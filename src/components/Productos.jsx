@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const Productos = () => {
 
-  const [productos, setProductos] = useState([])
+  const [productos, setProductos] = useState({})
   const [productoID, setProductoID] = useState(1)
 
   const fetchProductos = async () => {
