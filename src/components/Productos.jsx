@@ -11,7 +11,7 @@ export const Productos = () => {
       const data = await response.json();
       const productosArray = Array.isArray(data) ? data : [data];
       setProductos(productosArray);
-      console.log(productosArray)
+      console.log(productosArray[0])
   }
 
   useEffect(() => {
